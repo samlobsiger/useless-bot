@@ -2,7 +2,7 @@ function answerQuery(query) {
   query = query.toLowerCase();
   if (query.indexOf("rain") != -1 || query.indexOf("sun") != -1 || query.indexOf("weather") != -1)
     return "I do not care too much about weather, I'm locked inside a data center.";
-  if (query.indexOf("football") != -1 || query.indexOf("soccer") != -1 || query.indexOf("Marcelo Bielsa") != -1)
+  if (query.indexOf("football") != -1 || query.indexOf("soccer") != -1 || query.indexOf("bielsa") != -1)
     return "Marcelo Bielsa is a Legend! The best team is Leeds United! Marching on Together!";
   return "Sorry Dave, I cannot do that."
   
