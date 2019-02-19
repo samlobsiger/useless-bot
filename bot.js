@@ -5,7 +5,6 @@ function answerQuery(query) {
   if (query.indexOf("football") != -1 || query.indexOf("soccer") != -1 || query.indexOf("bielsa") != -1)
     return "Marcelo Bielsa is a Legend! The best team is Leeds United! Marching on Together!";
   return "Sorry Dave, I cannot do that."
-  
 }
 
 
